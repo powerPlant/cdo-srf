@@ -16,4 +16,4 @@ Version 1.7.0
   apt-get -y clean all
 
 %runscript
-  cdo "$@"
+  exec cdo "$@"
